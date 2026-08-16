@@ -1,0 +1,8 @@
+configs/private.keys
+configs/*.json
+configs/giveaways/*.json
+__pycache__/
+*.py[cod]
+.env
+plugins/__pycache__
+plugins/github_sync.py
