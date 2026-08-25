@@ -84,7 +84,9 @@ class GiveawayManager(commands.Cog):
                             if winners:
                                 winner_text = ""
                                 for i, winner_id in enumerate(winners, 1):
-                                    winner_text += f"{i}. <@{winner_id}>\n"
+                                    member = channel.guild.get_member(int(winner_id))
+                                    name = member.display_name if member else f"<@{winner_id}>"
+                                    winner_text += f"{i}. {name} (<@{winner_id}>)\n"
                                 
                                 embed = discord.Embed(title="🎊 Giveaway Ended!", color=discord.Color.gold())
                                 embed.add_field(name="Prize", value=giveaway['prize'], inline=False)
