@@ -1,5 +1,6 @@
 configs/private.keys
 configs/*.json
+configs/audio
 configs/giveaways/*.json
 __pycache__/
 *.py[cod]
