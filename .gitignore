@@ -1,14 +1,10 @@
 configs/private.keys
 configs/*.json
-configs/audio
+configs/audio/
 configs/giveaways/*.json
 __pycache__/
 *.py[cod]
 .env
-plugins/__pycache__
+*.log
+plugins/__pycache__/
 plugins/github_sync.py
-*.logconfigs/user_igns.json
-configs/private.keys
-configs/giveaway_blacklist.json
-configs/amp_message_id.json
-configs/ark_chat.json
