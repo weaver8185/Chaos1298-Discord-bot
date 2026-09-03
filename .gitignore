@@ -6,4 +6,8 @@ __pycache__/
 .env
 plugins/__pycache__
 plugins/github_sync.py
-*.log
+*.logconfigs/user_igns.json
+configs/private.keys
+configs/giveaway_blacklist.json
+configs/amp_message_id.json
+configs/ark_chat.json

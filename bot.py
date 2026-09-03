@@ -93,8 +93,6 @@ async def main():
     print("Bot starting...", flush=True)
     print(f"Current directory: {os.getcwd()}", flush=True)
     
-    await load_plugins()
-    
     TOKEN = os.getenv('DISCORD_BOT_TOKEN')
     if not TOKEN:
         print("ERROR: DISCORD_BOT_TOKEN not set!")
