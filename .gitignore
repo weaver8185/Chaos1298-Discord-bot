@@ -4,4 +4,6 @@ __pycache__/
 .env
 *.log
 plugins/__pycache__/
+plugins/github_sync.pyconfigs/private.keys
+configs/private.keys
 plugins/github_sync.py
