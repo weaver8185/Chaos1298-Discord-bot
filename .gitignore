@@ -1,7 +1,4 @@
-configs/private.keys
-configs/*.json
-configs/audio/
-configs/giveaways/*.json
+configs/
 __pycache__/
 *.py[cod]
 .env
